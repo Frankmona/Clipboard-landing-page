@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.heading_box{
+    width: 37%;
+    min-height: 150px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 3%;
+}
+.logo{
+    width: 7%;
+}
+
+.p_clipboard{
+    color: hsl(201, 11%, 66%);
+    font-size: small;
+   padding-bottom: 20px;
+   padding-top: 12px;
+}
+
+button{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    width:150px;
+    height: 36px;
+    color: white;
+    padding-bottom: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px hsl(171, 58%, 67%);
+}
+
+.button2 {background-color: hsl(233, 100%, 69%);
+         box-shadow: 2px 5px 5px hsl(233, 80%, 73%);
+         margin-left: 15px;
+         
+}
+
+
+.in_heading_box{
+  text-align: center;
+  font-family:'Bai Jamjuree', sans-serif;
+}
+
+.section_keep_track{
+    padding-top: 60px;
+}
+
+.quicksearch_box{
+    width: 25%;
+    min-height: 60px;
+    background-color: aqua;
+}
