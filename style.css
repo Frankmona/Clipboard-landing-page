@@ -235,3 +235,82 @@ footer{
 .logo_footer{
     width: 50%;
 }
+
+
+@media screen  and (max-width:500px){
+    html {
+        scroll-behavior: smooth;
+      }
+    
+      body{
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+
+    .heading_box{
+        width: 100%;
+        min-height: 150px;
+        /* background-color: aqua;
+        margin: auto; */
+        margin-top: 3%;
+    }
+
+    .button2 {background-color: hsl(233, 100%, 69%);
+        box-shadow: 2px 5px 5px hsl(233, 80%, 73%);
+        margin-top: 15px;
+}
+
+.Access_clipboard_box{
+    width: 100%;
+    min-height: 150px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+.computer_row{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    font-family:'Bai Jamjuree', sans-serif;
+}
+.img_computer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+.tool_box_row_display{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-content: center;
+}
+
+.footer_row_display{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icon_info_display{
+    display:flex;
+    flex-direction: column;
+    gap: 23rem;
+    /* padding-top: 3%; */
+}
+
+.icon_info_display{
+    display:flex;
+    gap: rem;
+}
+
+.logo_footer{
+    width: 30%;
+}
+
+
+}
