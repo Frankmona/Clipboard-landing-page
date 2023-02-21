@@ -34,8 +34,13 @@ body{
 }
 
 .p_clipboard_bottom{
-     padding-bottom: 20%;
+     padding-bottom: 15%;
 }
+
+.in_heading_box{
+    text-align: center;
+    font-family:'Bai Jamjuree', sans-serif;
+  }
 
 button{
     background-color: hsl(171, 66%, 44%);
@@ -59,11 +64,19 @@ button{
          
 }
 
-
-.in_heading_box{
-  text-align: center;
-  font-family:'Bai Jamjuree', sans-serif;
+button:hover{
+    background-color: hsl(171, 58%, 67%);
+    opacity: 0.8;
+    color: white;
 }
+
+.button2:hover{
+    background-color: hsl(233, 100%, 69%);
+    opacity: 0.8;
+    color: white;
+}
+
+
 
 .section_keep_track{
     padding-top: 60px;
@@ -105,4 +118,120 @@ button{
     display: flex;
     gap: 3rem;;
     
+}
+
+.Access_clipboard_box{
+    width: 37%;
+    min-height: 150px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 3%;
+}
+
+.img_devices{
+    width: 80%;
+    padding-top: 8%;
+}
+
+.tools_productivity_box{
+    width: 100%;
+    min-height: 70px;
+    /* background-color: aqua; */
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 2%;
+}
+
+.tools_icons{
+    width: 9%;
+}
+
+.tool_box_row_display{
+    display: flex;
+    gap: 2rem;
+    align-content: center;
+}
+
+.general_tool_box_container{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+   
+}
+
+.company_trademark{
+    width: 60%;
+    min-height: 5rem;
+    margin: auto;
+    margin-top: 3%;
+    /* background-color: red; */
+    padding-bottom: 3rem;
+}
+
+.company_trademark_icon{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.company_trademark_icon_row_display{
+    display: flex;
+    gap: 5rem;
+}
+
+
+footer{
+    width: 100%;
+    min-height: 5rem;
+    margin: auto;
+    margin-top: 3%;
+    background-color: hsl(210, 9%, 91%);
+}
+
+.footer_div{
+  padding: 3%;
+  padding-left: 6%;
+}
+
+.p_footer{
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 2;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1%;
+
+}
+
+.a_info{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.a_info:hover{
+    color: hsl(171, 58%, 67%);
+}
+.footer_row_display{
+    display: flex;
+    gap: 3rem;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    color: hsl(210, 10%, 33%);
+  }
+
+  .fa:hover {
+    color:hsl(171, 58%, 67%)
+}
+
+.icon_info_display{
+    display:flex;
+    gap: 23rem;
+    /* padding-top: 3%; */
+}
+
+.logo_footer{
+    width: 50%;
 }
