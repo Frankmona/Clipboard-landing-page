@@ -331,5 +331,11 @@ main{
     padding: 7%;
 }
 
+.button_dsiplay_row{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
 }
 
+
+}
