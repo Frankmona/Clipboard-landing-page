@@ -237,7 +237,7 @@ footer{
 }
 
 
-@media screen  and (max-width:500px){
+@media screen  and (max-width:414px){
     html {
         scroll-behavior: smooth;
       }
