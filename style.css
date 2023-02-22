@@ -309,8 +309,27 @@ footer{
 }
 
 .logo_footer{
-    width: 30%;
+    width: 20%;
 }
 
+footer{
+    width: 100%;
+    /* min-height: 5rem; */
+    margin: auto;
+    margin-top: 5%;
+    background-color: hsl(210, 9%, 91%);
+}
+
+.footer_row_display{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+main{
+    padding: 7%;
+}
 
 }
+
